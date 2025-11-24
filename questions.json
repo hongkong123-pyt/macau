@@ -20799,6 +20799,16 @@
       "answer": "29.92"
     },
     {
+      "question": "When in the cruise and clear of all terrain, altimeters are set to the __________ pressure setting (SPS).",
+      "choices": [
+       "single",
+       "standard",
+       "series",
+       "sensitive"
+      ],
+      "answer": "standard"
+    },
+    {
       "question": "Select the correct effect on Machmeter indications for the problem given below: Pitot blockage when the aircraft is descending.",
       "choices": [
         "Over-read - may be large.",
@@ -21157,6 +21167,24 @@
         "Dynamic pressure."
       ],
       "answer": "Total pressure."
+    },
+    {
+      "question": "Match each description to the closest matching instrument type of the 3 given: Displays either inertial data or a blend of air data and inertial data on PFD.",
+      "choices": [
+       "Instantaneous VSI.",
+       "VSI.",
+       "Inertial VSI."
+      ],
+      "answer": "Inertial VSI."
+    }, 
+    {
+      "question": "Select which of these 3 altimeter types is most accurately described by each statement: Near-zero friction means almost no lag and greater accuracy.",
+      "choices": [
+       "Simple Altimeter",
+       "Sensitive Altimeter",
+       "Servo-assisted Altimeter"
+      ],
+     "answer": "Servo-assisted Altimeter"
     },
     {
       "question": "In some CIS and Asian countries altimeters are calibrated in:",
@@ -23407,6 +23435,72 @@
         "Wind direction and speed."
       ],
       "answer": "Wind direction and speed."
+    },
+    {
+      "question": "Select the characteristics of the communication links that are used in aircraft: Long range, although limited in polar regions:",
+      "choices": [
+        "VHF",
+        "VHF & SATCOM",
+        "SATCOM",
+        "HF"
+      ],
+      "answer": "SATCOM"
+    },
+    {
+     "question": "Incorrect entry of latitude may lead to a loss of alignment, and is __________ critical than incorrect entry of longitude.",
+     "choices": [
+        "more",
+        "less"
+     ],
+     "answer": "more"
+    },
+    {
+     "question": "On older EFIS systems a single symbol generator (SG) failure affects __________ DU(s) so an operating ‘hot’ spare must be available.",
+     "choices": [
+        "multiple",
+        "single"
+     ],
+     "answer": "multiple"
+    },
+    {
+     "question": "The __________ page shows the aircraft variant, engine type and rating and the period of validity of the navigation database.",
+     "choices": [
+        "Route",
+        "Performance",
+        "Position",
+        "IDENT"
+     ],
+     "answer": "IDENT"
+    },
+    {
+     "question": "The FMA is:",
+     "choices": [
+       "Typically at the top of the PFD, and comprises boxes showing auto thrust, lateral and vertical modes engaged or armed.",
+       "Only useful when conducting an autoland.",
+       "Typically at the bottom of the PFD, and shows when the autopilot and auto thrust are engaged or armed.",
+       "Typically on the ND, and comprises boxes showing RNP, ANP and position error."
+     ],
+     "answer": "Typically at the top of the PFD, and comprises boxes showing auto thrust, lateral and vertical modes engaged or armed."
+    },
+    {
+     "question": "The __________page shows aircraft mass, flap setting, FLEX/assumed temperature/derate, and take-off speeds.",
+     "choices": [
+       "Performance",
+       "Route",
+       "IDENT",
+       "Position"
+     ],
+     "answer": "Performance"
+    },
+    {
+      "question": "ATT. Selects the reversionary ‘Attitude’ mode. Which annunciator will be lit until the system is ready for use? It will supply pitch and role data as well as heading information although this requires a magnetic heading to be entered manually via the FMS CDU.",
+      "choices": [
+        "ALIGN.",
+        "NAV. Navigation.",
+        "ATT. Attitude.",
+        "FAULT."
+      ],
+      "answer": "ALIGN."
     },
     {
       "question": "Digital data is moved within and between computers and input/output devices via a __________.",
@@ -26821,6 +26915,56 @@
       "answer": "Centre of Pressure"
     },
     {
+      "question": "Choose the best answer. Referring to the table below, what is the CG for the Zero Fuel Mass?",
+      "choices": [
+        "84.67",
+        "88.92",
+        "87.29",
+        "86.55"
+      ],
+      "answer": "87.29"
+    },
+    {
+      "question": "Which of the following would not affect the position of the CG?",
+      "choices": [
+        "Stabilizer trim setting.",
+        "Cabin crew members performing their normal duties.",
+        "Mass added or removed at the neutral point.",
+        "Fuel usage."
+      ],
+      "answer": "Stabilizer trim setting."
+    },
+    {
+      "question": "The Maximum Zero Fuel Mass (MZFM):\n1. Is a regulatory limitation.\n2. Is calculated for a maximum load factor of +3.5 g.\n3. Is based on the maximum permissible bending moment at the wing root.\n4. Is defined under the assumption that fuel is consumed from the outer wing tanks first.\n5. Is defined under the assumption that fuel is consumed from the inner wing tanks first.\nWhich combination of statements is correct?",
+      "choices": [
+        "2, 3, 5",
+        "1, 2, 3",
+        "2, 3, 4",
+        "1, 3, 5"
+      ],
+      "answer": "1, 3, 5"
+    },
+    {
+      "question": "Choose the best answer. The formula for calculating minimum loading area is __________ mass / floor load limit.",
+      "choices": [
+        "datum",
+        "single unit",
+        "crate",
+        "moment"
+      ],
+      "answer": "crate"
+    },
+    {
+      "question": "During the pre-flight preparation, the pilot calculates a take-off fuel of 53 US gallons. Considering a fuel density of 6 lb per US gallon, this equals:",
+      "choices": [
+        "144 kg.",
+        "24 kg.",
+        "318 kg.",
+        "701 kg."
+      ],
+      "answer": "144 kg."
+    },
+    {
       "question": "Given : Actual mass 116 500 lb, Original CG station 435.0, Compartment A station 285.5, Compartment B station 792.5. If 390 lb of cargo is moved from compartment B (aft) to compartment A (forward), what is the station number of the new CG?",
       "choices": [
         "433.3",
@@ -27309,6 +27453,26 @@
         "The mass of the traffic load and fuel."
       ],
       "answer": "The mass of the traffic load and fuel."
+    },
+    {
+      "question": "Choose the best answer. Which of the following formulae is correct?",
+      "choices": [
+        "Distance to CG (from datum) = Total Moment ÷ Total Mass",
+        "Distance to CG (from datum) = √(Total Moment ÷ Total Mass)",
+        "Distance to CG² (from datum) = Total Moment ÷ Total Mass",
+        "Distance to CG (from datum) = Total Moment x Total Mass"
+     ],
+      "answer": "Distance to CG (from datum) = Total Moment ÷ Total Mass"
+    },
+   {
+     "question": "Choose the best answer. How is distance to the new CG (CGN) calculated using the ‘Moment Method'?",
+     "choices": [
+        "Distance to New CG (CGN) = Moment x Mass",
+        "Distance to New CG (CGN) = √(Moment x Mass)",
+        "Distance to New CG (CGN) = Moment ÷ Mass",
+        "Distance to New CG (CGN) = Moment² x ½Mass"
+      ],
+      "answer": "Distance to New CG (CGN) = Moment ÷ Mass"
     },
     {
       "question": "Given the following information what is the allowed take-off mass and maximum traffic load for the B737? MRM 63 060 kg, start up and taxi 300 kg, RTOM 62 800 kg, RLM 48 900 kg, MZFM 51 300 kg, DOM 34 300 kg, Block fuel 11 500 kg trip fuel 8700 kg.",
@@ -29443,6 +29607,16 @@
       "answer": "reverse thrust"
     },
     {
+      "question": "An aerodrome may be nominated as an ETOPS ERA aerodrome for flight planning and dispatch purposes, if available forecast weather conditions for a period lasting from the earliest potential landing time until 1 hour after the latest nominated time of use, equals or exceeds:",
+      "choices": [
+        "For a non-precision approach, a ceiling of MDA/H +400 ft and visibility of VIS +1500 m.",
+        "For a circling approach, a ceiling of MDA/H +200 ft and visibility of VIS +800 m.",
+        "For a non-precision approach, a ceiling of MDA/H +400 ft and visibility of VIS +800 m.",
+        "For a precision approach, a ceiling of DA/H +200 ft and visibility of VIS +1500 m."
+     ],
+     "answer": "For a non-precision approach, a ceiling of MDA/H +400 ft and visibility of VIS +1500 m."
+    },
+    {
       "question": "According to ICAO, noise abatement procedures during landing:",
       "choices": [
         "prohibit the use of reverse thrust.",
@@ -30073,6 +30247,26 @@
       "answer": "red steady light"
     },
     {
+      "question": "Before exercising Commander’s discretion the commander must:",
+      "choices": [
+        "Obtain the permission of the Operator.",
+        "Obtain the permission of all the crew members.",
+        "Obtain the permission of the majority of the crew members.",
+        "Consult the crew on their alertness levels before deciding on extension."
+      ],
+      "answer": "Consult the crew on their alertness levels before deciding on extension."
+    },
+    {
+      "question": "For passenger oxygen systems, the required minimum supply is the amount of oxygen needed for a constant rate descent from the aeroplane’s maximum certificated operating altitude to 15 000 ft in __________ minutes.",
+      "choices": [
+        "10",
+        "5",
+        "15",
+        "7"
+      ],
+      "answer": "10"
+    },
+    {
       "question": "As a minimum the flight safety documentation system comprises the __________ manual and the __________ control manual.",
       "choices": [
         "Training; ground",
@@ -30663,6 +30857,16 @@
         "25"
       ],
       "answer": "50"
+    },
+    {
+      "question": "If the air temperature decreases, the take-off distance/ground-roll distance will:",
+      "choices": [
+        "Increase / Decrease.",
+        "Decrease / Decrease.",
+        "Increase / Increase.",
+        "Decrease / Increase."
+      ],
+      "answer": "Decrease / Decrease."
     },
     {
       "question": "With reference to CAP 698 Figure 3.7. Why is wind omitted from the graph?",
@@ -31275,6 +31479,26 @@
       "answer": "(1) does not affect, (2) does not affect"
     },
     {
+      "question": "A pilot performing a CAT flight suspects a fuel leak coming from a fuel tank and decides to divert to an alternate aerodrome. What is the flown speed that should be selected from the point of diversion to the alternate aerodrome?",
+      "choices": [
+        "Speed for maximum endurance.",
+        "Long range cruise speed.",
+        "Speed for maximum range.",
+        "Maximum operating airspeed."
+     ],
+     "answer": "Speed for maximum range."
+   },
+  {
+      "question": "Comparing 2 aircraft of the same type with equal masses at different altitudes, the maximum endurance speed is higher:",
+      "choices": [
+        "At the altitude with less headwind.",
+        "For the aeroplane at the lower altitude.",
+        "For the aeroplane at the higher altitude.",
+        "At the altitude with more headwind."
+     ],
+     "answer": "For the aeroplane at the higher altitude."
+    },
+    {
       "question": "In Europe CS-23 covers:",
       "choices": [
         "The operation of aeroplanes in the Normal category, with a passenger seating configuration up to 19 or less and a MCTOM of 8618 kg (or less).",
@@ -31383,6 +31607,52 @@
         "aerodynamic"
       ],
       "answer": "absolute"
+    },
+    {
+      "question": "At the changeover altitude the remainder of the descent is flown at constant __________.",
+      "choices": [
+        "CAS",
+        "Mach"
+      ],
+      "answer": "CAS"
+    },
+    {
+      "question": "Study this diagram, then identify the correct statement.",
+      "choices": [
+        "Best range for a turbojet aeroplane occurs at Point B.",
+        "Best range for a turbojet aeroplane occurs at Point A.",
+        "Best range for a propeller-driven aeroplane occurs at Point B.",
+        "Best range for a propeller-driven aeroplane occurs at Point A."
+      ],
+      "answer": "Best range for a propeller-driven aeroplane occurs at Point B."
+    },
+    {
+      "question": "The __________ is the maximum permissible mass at the start of the take-off run.",
+      "choices": [
+        "MLM",
+        "MSLM",
+        "MTOM"
+      ],
+      "answer": "MTOM"
+    },
+    {
+      "question": "Which of the following statements about performance definitions and safety factors is correct?",
+      "choices": [
+        "The net climb gradient is the gross climb gradient minus a safety margin.",
+        "The net and gross climb gradients are equal for a four-engined aeroplane.",
+        "The gross take off flight path must clear all obstacles by at least 35 ft.",
+        "The gross climb gradient is the net climb gradient minus a safety margin."
+     ],
+     "answer": "The net climb gradient is the gross climb gradient minus a safety margin."
+    },
+    {
+      "question": "For an aeroplane taking off on Runway 05. The reported wind is 140/20 kt. Mark all correct answers.",
+     "choices": [
+       "The headwind component is 10 kt, the crosswind component is 10 kt.",
+       "The headwind component is 20 kt, the crosswind component is 0 kt.",
+       "The headwind component is 0 kt, the crosswind component is 20 kt."
+     ],
+      "answer": "The headwind component is 0 kt, the crosswind component is 20 kt."
     },
     {
       "question": "Extending flap __________ excess thrust.",
@@ -32073,6 +32343,83 @@
         "42 000 kg."
       ],
       "answer": "42 400 kg."
+    },
+    {
+      "question": "The Class A performance calculations:",
+      "choices": [
+        "Assume no degradation of performance due to icing conditions.",
+        "Must take account of performance degradation in icing conditions when icing conditions are present."
+     ],
+     "answer": "Must take account of performance degradation in icing conditions when icing conditions are present."
+    },
+    {
+      "question": "Due to a pilot mistake, if on a particular flight the value of V1 used on take-off exceeds the correct value of V1, and an engine fails at a speed immediately above the correct value of V1 then:",
+      "choices": [
+        "The one-engine-inoperative take-off distance may exceed the take-off distance available.",
+        "It may lead to over-rotation.",
+        "V2 may be too high so that climb performance decreases.",
+        "The accelerate-stop distance will exceed the accelerate-stop distance available."
+      ],
+      "answer": "The accelerate-stop distance will exceed the accelerate-stop distance available."
+    },
+    {
+      "question": "Which is the correct sequence of speeds during take-off?",
+      "choices": [
+        "V1, VMCG, VR, V2.",
+        "V1, VR, VMCG, V2.",
+        "VMCG, V1, VR, V2.",
+        "V1, VR, V2, VMCA."
+     ],
+     "answer": "VMCG, V1, VR, V2."
+    },
+    {
+      "question": "The maximum speed during the take-off at which the pilot must take the first action (e.g. apply brakes, reduce thrust, deploy speed brakes) to stop the aeroplane within the accelerate-stop distance. This is a description of:",
+      "choices": [
+        "VR",
+        "VEF",
+        "V2",
+        "V1"
+     ],
+     "answer": "V1"
+    },  
+    {
+      "question": "When carrying out the increased V2 take-off procedure what is the effect on the screen height?",
+      "choices": [
+        "The screen height varies proportionally with the increase in V2.",
+        "Remains constant.",
+        "Decreases to 35ft.",
+        "Increases to 50ft."
+     ],
+     "answer": "Remains constant."
+    },  
+    {
+      "question": "If your aeroplane can achieve a positive net gradient with one engine inoperative, then your minimum obstacle clearance is __________ ft within 5 nm of your intended track (provided you have sufficient navigation accuracy).",
+      "choices": [
+        "2000",
+        "150",
+        "1000"
+     ],
+     "answer": "1000"
+    },      
+    {
+      "question": "Assume a take-off with a class A aeroplane on a wet runway. Which of the following values shows the corresponding screen height of the take-off distance?",
+      "choices": [
+        "0 ft",
+        "15 ft",
+        "50 ft",
+        "35 ft"
+     ],
+     "answer": "15 ft"
+    },
+    {
+      "question": "A balanced field is contaminated with compacted snow what effect will it have on the TODA and ASDA?",
+      "choices": [
+        "TODA decreases ASDA increases.",
+        "TODA and ASDA increase.",
+        "TODA increases and ASDA decreases.",
+        "They will stay the same."
+     ],
+     "answer": "They will stay the same."
     },
     {
       "question": "Gross gradients are reduced by safety factors of __________ % for 2-engined aeroplanes; __________ % for 3-engined aeroplanes; and __________ % for 4-engined aeroplanes.",
@@ -34165,6 +34512,158 @@
       "answer": "The demonstrated crosswind."
     }
   ],
+  "FPM DT": [
+    {
+      "question": "Contingency fuel is not intended to cover fuel consumption due to:",
+      "choices": [
+        "Deviations of an individual airplane form the expected fuel consumption data",
+        "Increased fuel consumption due to ATC rerouting",
+        "An increase in total fuel usage caused by the weather enrolee being other than forecasted",
+        "A diversion from the intended destination airport to a destination alternate"
+      ],
+      "answer": "A diversion from the intended destination airport to a destination alternate"
+    },
+    {
+      "question": "You will do an uncontrolled VFR flight at 2000’ MSL. What do you write in your ATS flight plan number 15?",
+      "choices": [
+        "A4000",
+        "VFR",
+        "FL040",
+        "A040"
+      ],
+      "answer": "VFR"
+    },
+    {
+      "question": "For an VFR flight at LEAL, what statement is correct?",
+      "choices": [
+        "To cross LEAL, you can use the SOUTH and NORTH corridor MAX FL75, MNM 55000ft",
+        "If radio failure, MAX 800ft",
+        "VOR/DME for ALT is 114.65",
+        "The Tabarca Route is limited to MAX 2000 ft."
+      ],
+      "answer": "If radio failure, MAX 800ft"
+    },
+    {
+      "question": "Calculate PSR on a 600 nm leg from A to B. TAS is 205kt, and the WC is +40 on the flight outbound and -45 on the return track. Safe endurance is 4 hr 30 min, and Fuel flow 200 kg/hr. Disregard any climb or descent. What is the distance to destination when you reach PSR.",
+      "choices": [
+        "211 nm",
+        "164 nm",
+        "193 nm",
+        "142 nm"
+      ],
+      "answer": "164 nm"
+    },
+    {
+      "question": "Calculate flight time to PET, if: GS out: 300 kt GS on: 300 kt GS return: 225kt. S.E: 5h 20min. Total distance: 1214 nm",
+      "choices": [
+        "01h 40min",
+        "01h 44min",
+        "01h 50min",
+        "01h 54min"
+      ],
+      "answer": "01h 44min"
+    },
+    {
+      "question": "You have chosen Aberdeen, UK as a destination alternate for an IFR flight. Runway 16 is in use and you have ILS cat I capability. What will be your planning weather minimums (cat B aircraft).",
+      "choices": [
+        "RVR 550 m",
+        "RVR 1500 m, ceiling 690 feet",
+        "RVR 550 m, ceiling 690 feet",
+        "DA/H + 200 ft, RVR/VIS + 800 m"
+      ],
+      "answer": "DA/H + 200 ft, RVR/VIS + 800 m"
+    },
+    {
+      "question": "What can be found at N5953 W00117?",
+      "choices": [
+        "The airport Sumburgh",
+        "A VOR/DME (SUM)",
+        "Class D airspace",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "Given: FF trip: 1500kg/hr FF hold: 2000kg/hr Flight time: 2hr. What is the required contingency fuel flow?",
+       "choices": [
+        "150kg",
+        "200kg",
+        "167kg",
+        "90kg"
+      ],
+      "answer": "167kg"
+    },
+    {
+      "question": "You have a fuel flow of 55 litres/hour and you fly along a true track of 206º. The distance is 124 nm, TAS is 117 kt and W/V is 100º/20kt. What is the total fuel consumption?",
+      "choices": [
+        "52,0 liters",
+        "54,1 liters",
+        "56,4 liters",
+        "58,3 liters"
+      ],
+      "answer": "56,4 liters"
+    },
+    {
+      "question": "You are planning an IFR flight from A to B, where the total distance is 933 nm. You chose an enroute alternate airport for this flight, which is located a couple of m beside your intended trackline, at a distance of 402,4 m from the destination airport. What is correct regarding contingency fuel on this flight, for an operator having no specific fuel monitoring system?",
+      "choices": [
+        "Contingency fuel should be no less than 5% of the total trip fuel",
+        "Contingency fuel should be no less than 3% of the total trip fuel",
+        "Contingency fuel should be no less than what is required to fly for 15 minutes at 1500 feet AGL above the destination aerodrome",
+        "Contingency fuel should be no less than what is required to fly for 30 minutes at 1500 feet AGL above the destination aerodrome"
+      ],
+      "answer": "Contingency fuel should be no less than 3% of the total trip fuel"
+    },
+    {
+      "question": "The following TAF is valid for you destination in Stuttgart, Germany: EDDS 240822Z 0918 21006KT 9999 SCT020 BKN034 - RA BECMG 1215 6000 BKNO10 RA PROB40 1618 700 BR OVC002= You have planned to arrive in Stuttgart at 1630 UTC and fly a straight in CAT 1 ILS approach to runway 25. What is true?",
+      "choices": [
+        "You must plan with a different approach, the expected weather is not good enough for your intended approach.",
+        "You cannot plan with a straight in approach rwy 25 during these conditions, but a circle to land runway 07 would be a valid option.",
+        "You can only do the approach if the PROB group does not happen",
+        "The weather is good enough for the intended approach"
+      ],
+      "answer": "The weather is good enough for the intended approach"
+    },
+    {
+      "question": "Make out a flight plan for a VFR flight from EDML (Landshut) to LFQP (Phalsbourg). The route is EDML - Direct EDMB (Biberach) - Direct LFQP. You are using the SEP 1 type of aircraft, and the cruising altitude is FL 100. What is the highest Minimum Grid Area Altitude on this flight?",
+      "choices": [
+        "4800 ft",
+        "5900 ft",
+        "3900 ft",
+        "5500 ft"
+      ],
+      "answer": "5500 ft"
+    },
+    {
+      "question": "What is the total distance from EH019 to BERGI intersection, if departing rwy 04 and then following BERGI departure? (Amsterdam)",
+      "choices": [
+        "34 nm",
+        "24 nm",
+        "32 nm",
+        "44 nm"
+      ],
+      "answer": "24 nm"
+    },
+    {
+      "question": "What is the MT and distance between Sulz VOR (N4823 E00839) and Donaueschingen Villngen Airfield (N4759 E00831)?",
+      "choices": [
+        "MT 192º / Distance 25 nm",
+        "MT 011º / Distance 32 nm",
+        "MT 196º / Distance 27.5 nm",
+        "MT 177º / Distance 32 nm"
+      ],
+      "answer": "MT 192º / Distance 25 nm"
+    },
+    {
+     "question": "On a normal operation with a long distance, your operator is approved to operate with RCF. (Jet aircraft). Calculate the total fuel you wish to order at the depature. Taxi fuel will be 200kg as standard, TAS 440 kt, WC -30kt, FL350 for cruise and FF 2250kg/h.",
+     "choices": [
+        "16 332,67 kg",
+        "16 372,5 kg",
+        "15 670,07 kg",
+        "16 153 kg"
+      ],
+      "answer": "16 153 kg"
+    }
+],
   "FPM": [
     {
       "question": "Refer to GSPRM Jeppesen Plate AMSTERDAM (Schipol) 10-2B. You recover via MOLIX, LUTEX and ROBVI and then hold for 20 mins. Expected fuel state at SUGOL after 20 mins holding? Usable Fuel at MOLIX 380 lbs, GS = 103 kts, Fuel flow at SUGOL 215 lbs/h, Holding fuel flow 140 lbs/h",
@@ -36387,6 +36886,16 @@
       "answer": "Min 3100 ft at 9.5 NM from ALT, Max 220 kt during the turn until ALT Radial 246, 6.3 NM"
     },
     {
+      "question": "For Commercial Air Transport operations over a mountainous area where the terrain elevation is up to 7000 ft, what is the minimum obstacle clearance guaranteed by MOCA?",
+      "choices": [
+        "900 m",
+        "600 m",
+        "450 m",
+        "300 m"
+      ],
+      "answer": "600 m"
+    }, 
+    {
       "question": "Refer to your Jeppesen GSPRM Terminal Section IFR Charts for Alicante, Spain 10-3A - 10-3G. You are departing to the west. Your aircraft is not RNAV certified. W/V = 275/20. TAS after take-off = 120 kt. What departure procedure should you use and what is the minimum climb gradient and rate of climb required?",
       "choices": [
         "YES 3A - 5.0% @ 506 fpm",
@@ -36501,10 +37010,10 @@
       "choices": [
         "1700'",
         "1577'",
-        "nan",
+        "N/A",
         "3000'"
       ],
-      "answer": "nan"
+      "answer": "N/A"
     },
     {
       "question": "Refer to GSPRM Jeppesen Chart E(LO)1. A section of a flight is carried out from SUMBURGH (SUM) to ABERDEEN (ADN) along airway Y905. Choose the lowest flight level which can be used for the whole section:",
@@ -37195,6 +37704,36 @@
         "200 kt"
       ],
       "answer": "200 kt"
+    },
+    {
+     "question": "Given the following information, when flying between Schwäbish Hall (EDTY) N49°08' E009°47' and Karlsruhe/Baden-Baden (EDSB) N48°46' E008°06', what radio navigation aid could you use for distance and (nearly) accurate groundspeed to the first line feature, the A81 autobahn (motorway)? Visibility: 20 km Cloud: OVC 7000 Temperature: ISA QNH: 1033 hPa W/V: 100°(T)/30 kt CAS: 145 kt.",
+     "choices": [
+       "LBU VOR/DME 109.20 MHz",
+       "KRH VOR/DME 115.95 MHz",
+       "KBD DME 115.80 MHz",
+       "SHD DME 108.05 MHz"
+     ],
+     "answer": "SHD DME 108.05 MHz"
+    },
+    {
+     "question": "You want to plan a very accurate VFR route within a controlled airspace. Which of the following landmarks do you consider best suited for insertion into a GNSS flight plan using coordinates?",
+     "choices": [
+        "Lakes and rivers",
+        "Motorway or railroad junctions",
+        "Large wooden areas",
+        "Major cities"
+      ],
+      "answer": "Motorway or railroad junctions"
+    },
+    {
+     "question": "The minimum climb gradient for obstacle clearance is 4%. TAS for the best rate of climb is 230 kt. Given a tailwind of 15 kt, what minimum rate of climb can be achieved?",
+     "choices": [
+        "875 ft/min",
+        "995 ft/min",
+        "595 ft/min",
+        "935 ft/min"
+     ],
+     "answer": "995 ft/min"
     },
     {
       "question": "What are the 3 main sections of the Aeronautical Information Publication (AIP)?",
