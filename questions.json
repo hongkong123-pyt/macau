@@ -23720,7 +23720,7 @@
         "Sometimes",
         "Not applicable"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "During a final approach, the flight director is engaged in the G/S mode (tracking the ILS Glide Slope). If the horizontal command bar is deviating upward, it means that:",
@@ -23780,7 +23780,7 @@
         "Only in cruise",
         "Not required"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "Sequences modes when a descent is started.",
@@ -23840,7 +23840,7 @@
         "Only in manual",
         "Only in automatic"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "N1 or EPR passed from the FMS is the target.",
@@ -25970,7 +25970,7 @@
     {
       "question": "The Flight Data Recorder makes use of:",
       "choices": [
-        "a recording system, an \"event\u2022 button, and an underwater locating device.",
+        "a recording system, an \"event\" button, and an underwater locating device.",
         "an erase button, a recording system, and an area microphone.",
         "an area microphone, a headset jack and an \"event\" button.",
         "an underwater locating device, an erase button, and a headset jack."
@@ -29384,9 +29384,9 @@
     {
       "question": "A fast decompression is recognisable by the following elements: 1. mist in the cabin 2. air streaming out of the aircraft 3. expansion of body gases 4. blast of air released violently from the lungs The combination regrouping all the correct statements is:",
       "choices": [
-        "2025-01-04 00:00:00",
-        "2003-01-02 00:00:00",
-        "2004-02-03 00:00:00",
+        "1, 3, 4",
+        "2, 3, 4",
+        "1, 2, 4",
         "1, 2, 3, 4"
       ],
       "answer": "1, 2, 3, 4"
@@ -29620,16 +29620,6 @@
         "Freezing rain"
       ],
       "answer": "Freezing rain"
-    },
-    {
-      "question": "Refuelling or de-fuelling with Avgas or wide-cut fuel _________ permitted while passengers are embarking, on board, or disembarking.",
-      "choices": [
-        "is",
-        "may be",
-        "is not",
-        "is sometimes"
-      ],
-      "answer": "is not"
     },
     {
       "question": "The global air-to-air frequency, for use when out of range of VHF ground stations, for exchange of operationally significant information is:",
@@ -30254,7 +30244,7 @@
     {
       "question": "Identify the true and false statements. Personnel must have access to parts of the OM related to their duties.",
       "choices": [
-        "1",
+        "True",
         "False",
         "Only if they are flight crew",
         "Only the digital version"
@@ -30284,7 +30274,7 @@
     {
       "question": "Identify the true and false statements. Crew members must have personal copies of the OM Part A and Part B.",
       "choices": [
-        "1",
+        "True",
         "False",
         "Only the Captain",
         "Only if flying internationally"
@@ -30314,7 +30304,7 @@
     {
       "question": "Identify the true and false statements. Flight crew must have personal copies of the OM Parts A, B and C.",
       "choices": [
-        "1",
+        "True",
         "False",
         "Only Part A",
         "Only if required by the Authority"
@@ -30474,7 +30464,7 @@
     {
       "question": "Identify if this is a true or false statement. Digital flight data monitoring programmes use data from operations for safety and disciplinary purposes.",
       "choices": [
-        "1",
+        "True",
         "False",
         "Only for safety purposes",
         "Only for training purposes"
@@ -30534,7 +30524,7 @@
     {
       "question": "Identify the true and false statements. Copies of all parts of the OM must be kept in the aircraft library.",
       "choices": [
-        "1",
+        "True",
         "False",
         "Only Part B",
         "Only if required by the operator"
@@ -30622,16 +30612,6 @@
       "answer": "10% (min 3) of each rating in use."
     },
     {
-      "question": "Before exercising Commander\u2019s discretion the commander must:",
-      "choices": [
-        "Obtain the permission of the Operator.",
-        "Obtain the permission of all the crew members.",
-        "Obtain the permission of the majority of the crew members.",
-        "Consult the crew on their alertness levels before deciding on extension."
-      ],
-      "answer": "Consult the crew on their alertness levels before deciding on extension."
-    },
-    {
       "question": "How many battery-powered accessible megaphones are required on an aircraft with a MOPSC of 61-99?",
       "choices": [
         "1",
@@ -30639,7 +30619,7 @@
         "NONE",
         "3"
       ],
-      "answer": "True"
+      "answer": "1"
     },
     {
       "question": "The MMEL (Master Minimum Equipment List) is drawn up by:",
@@ -30764,7 +30744,7 @@
     {
       "question": "Identify the true and false statements. All personnel must have personal access to the OM Parts A, B and C.",
       "choices": [
-        "1",
+        "True",
         "False",
         "Only flight crew",
         "Only management"
@@ -30924,7 +30904,7 @@
     {
       "question": "Identify if this is a true or false statement. A flight data monitoring programme must exist for aircraft with MCTOM > 27 000 kg.",
       "choices": [
-        "1",
+        "True",
         "False",
         "Only for passenger flights",
         "Only if required by the state of registry"
@@ -30944,7 +30924,7 @@
     {
       "question": "Identify if this is a true or false statement. A flight data monitoring programme should exist for aircraft with MCTOM > 20 000 kg.",
       "choices": [
-        "1",
+        "True",
         "False",
         "Only for cargo flights",
         "Only if operating internationally"
@@ -35069,26 +35049,6 @@
       "answer": "11 371 kg"
     },
     {
-      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. MTOM 233 000 kg MLM 182 000 kg MZFM 170 000 kg DOM 122 550 kg Traffic Load 43 217 kg Trip Fuel 45 854 kg Planned T/O Fuel 51 616 kg Taxi Fuel 300 kg Fuel burn correction per 1000 kg of Extra Fuel based upon: TOM: + 394 kg and LDM: + 650 kg Fuel tank capacity 110 000 kg",
-      "choices": [
-        "15 617 kg",
-        "4233 kg",
-        "1047 kg",
-        "14 596 kg"
-      ],
-      "answer": "15 617 kg"
-    },
-    {
-      "question": "Given the following information, what is the ground speed of the aircraft? TAS: 300 kt Heading: 090\u00b0 Wind: 330\u00b0/46 kt",
-      "choices": [
-        "280 kt",
-        "320 kt",
-        "330 kt",
-        "325 kt"
-      ],
-      "answer": "325 kt"
-    },
-    {
       "question": "Given: Distance from departure to destination 150 NM Safe Endurance 2.4 h True Track 250 W/V 280/15 TAS 120 kt What is the distance of the PSR from the departure point??",
       "choices": [
         "142 NM",
@@ -35109,16 +35069,6 @@
       "answer": "9460 kg"
     },
     {
-      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. Maximum Ramp Mass 77 500 kg MTOM 77000 kg MLM 66 360 kg MZFM 62720 kg DOM 42 845 kg Traffic Load 17460 kg Planned T/O Fuel 10 365 kg Trip Fuel 7890 kg Taxi Fuel 195 kg Fuel burn correction per 1000 kg of Extra Fuel based upon: TOM: + 135 kg and LDM: + 156 kg Fuel tank capacity 21 000 kg",
-      "choices": [
-        "4139 kg",
-        "3580 kg",
-        "2415 kg",
-        "6330 kg"
-      ],
-      "answer": "4139 kg"
-    },
-    {
       "question": "Refer to IFR Chart E(HI)1. Your aircraft is routing from Newcastle, England (EGNT) to Keflavik, Iceland via route L602 - TLA VOR/DME - route UL613 - BAMRA - UP61. ETO TLA VOR/DME = 11.25 UTC ETO BAMRA = 12.15 UTC 5 nm before VADNO (N57\u00b0 27\u2019 W003\u00b0 38\u2019), ATC instructs a speed change: \u201cReduce speed, cross BAMRA not before 12.17 UTC\u201d. What is the required reduction in groundspeed?",
       "choices": [
         "25 kt",
@@ -35137,16 +35087,6 @@
         "1760 kg"
       ],
       "answer": "1250 kg"
-    },
-    {
-      "question": "An aircraft was over A at 1435 hours flying direct to B. Given: Distance A to B 2900 NM True airspeed 470 kt Mean wind component OUT +55 kt Mean wind component BACK -75 kt The ETA for reaching the point of equal time (PET) between A and B is:",
-      "choices": [
-        "17:21:00",
-        "18:46:00",
-        "16:57:00",
-        "17:44:00"
-      ],
-      "answer": "16:57:00"
     },
     {
       "question": "Given: Distance from departure to destination 220 NM True track 175\u00b0 W/V 220/10 TAS 135 kts What is the distance of the PET from the departure point?",
@@ -35189,16 +35129,6 @@
       "answer": "1209"
     },
     {
-      "question": "Use Flight planning Manual SEP 1 Figure 2.2 Table 2.2.3 Using the Power Setting Table, for the single engine aeroplane, determine the cruise TAS and fuel flow (lbs/hr) with full throttle and cruise lean mixture in the following conditions: Given: OAT: 13\u00b0C Pressure altitude: 8000 ft RPM: 2300",
-      "choices": [
-        "160 kt and 71.1 lbs/hr",
-        "158 kt and 74.4 lbs/hr",
-        "160 kt and 69.3 lbs/hr",
-        "159 kt and 71.7 lbs/hr"
-      ],
-      "answer": "160 kt and 69.3 lbs/hr"
-    },
-    {
       "question": "Given: Distance from departure to destination 2450 NM Safe Endurance 7.5 h TAS 410 kt Ground Speed Out 360 kt Ground Speed Home 460 kt What is the time of the PSR from the departure point in minutes?",
       "choices": [
         "252 min",
@@ -35229,16 +35159,6 @@
       "answer": "Is 87 300 kg and excess structural stress could result."
     },
     {
-      "question": "Given the following information, assuming conditions stay the same, what is the ETA at DELTA? BETA to GAMMA distance: 60 NM Actual time en-route: 30 min Actual lime of arrival at GAMMA: 1240 UTC GAMMA to DELTA distance: 34 NM",
-      "choices": [
-        "12:37 UTC",
-        "13:07 UTC",
-        "12:57 UTC",
-        "12:47 UTC"
-      ],
-      "answer": "12:57 UTC"
-    },
-    {
       "question": "Given the following Information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel to be uplifted. Maximum Zero Fuel Mass MZFM: 2000 kg Actual Zero Fuel Mass AZFM: 2000 kg Regulated Take-Off Mass RTOM: 3000 kg Maximum Landing Mass MLM: 2200 kg Fuel Tank Capacity: 550 kg Trip Fuel TF: 190 kg Minimum Block Fuel (BF): 300 kg",
       "choices": [
         "Not able to carry Extra Fuel.",
@@ -35247,26 +35167,6 @@
         "250 kg."
       ],
       "answer": "90 kg."
-    },
-    {
-      "question": "Given A to B: 2050 NM Mean ground speed there 440 kt Mean ground speed back 540 kt The distance to the point of equal time PET between A & B is:",
-      "choices": [
-        "920 NM",
-        "1130 NM",
-        "1025 NM",
-        "1153 NM"
-      ],
-      "answer": "1130 NM"
-    },
-    {
-      "question": "Maximum allowable take-off mass: 64 400 kg Maximum landing mass: 56 200 kg Maximum zero fuel mass: 53 000 kg Dry operating mass: 35 500 kg Traffic load: 14 500 kg Trip fuel: 4900 kg Minimum Take-off Fuel: 7400 kg. Find maximum allowable take-off fuel:",
-      "choices": [
-        "11 400 kg",
-        "11 100 kg",
-        "8600 kg",
-        "14 400 kg"
-      ],
-      "answer": "11 100 kg"
     },
     {
       "question": "Determine the required fuel for an aircraft on a commercial VFR flight with reciprocating engines, given: Fuel Flow: 120 kg/h Trip Time: 4 h 39 min No alternate selected and good weather expected.",
@@ -35319,16 +35219,6 @@
       "answer": "127 kt, 25 minutes"
     },
     {
-      "question": "Given: Distance from departure to destination: 950 NM Safe Endurance: 3.5 h TAS: 360 kt Ground Speed Out: 320 kt Ground Speed Home: 400 kt What is the distance and time of the PSR from the departure point?",
-      "choices": [
-        "Distance: 622 NM Time: 117 min",
-        "Distance: 328 NM Time: 62 min",
-        "Distance: 311 NM Time: 52 min",
-        "Distance: 528 NM Time: 79 min"
-      ],
-      "answer": "Distance: 622 NM Time: 117 min"
-    },
-    {
       "question": "Due to a drive failure, the slats of a transport category aircraft do not retract properly after take-off. Based on the flight planning data given below, calculate the time penalty in per cent for the flight, based on endurance. Usable fuel 8540 kg Fuel consumption 2600 kg/h Final reserve fuel 1100 kg (Note: consider 60% fuel penalty for flap/slat failure and 180% for gear retraction failure)",
       "choices": [
         "0.64",
@@ -35369,16 +35259,6 @@
       "answer": "Yes, you can fly in at any time after 06:30 UTC, even though the airfield is open from 06:20."
     },
     {
-      "question": "For pre-flight planning purposes what is the block fuel required? Assume the Basic Fuel Scheme WITHOUT variations applies. Taxi fuel: 350 kg Trip fuel: 85 000 kg Contingency fuel: 5% of the Trip fuel Final reserve fuel: 3000 kg Alternate fuel: 5500 kg Discretionary fuel: 1500 kg Extra fuel: 0 kg",
-      "choices": [
-        "98 100 kg",
-        "99 600 kg",
-        "99 250 kg",
-        "95 350 kg"
-      ],
-      "answer": "99 600 kg"
-    },
-    {
       "question": "Given the following information, what is the ground speed? TAS: 150 kt Track: 090\u00b0 Wind: 050\u00b0/46 kt",
       "choices": [
         "128 kt",
@@ -35417,26 +35297,6 @@
         "299 lb + reserves"
       ],
       "answer": "299 lb + reserves"
-    },
-    {
-      "question": "How much useable fuel should be on board at start-up given the following planning information: APU fuel flow 150 kg/h Taxi fuel flow 11 kg / minute APU time 38 minutes Taxi. 13 minutes Trip fuel (including contingency) 4250 kg Alternate and Final Reserve fuel 3730 kg",
-      "choices": [
-        "8100 kg",
-        "7980 kg",
-        "6568 kg",
-        "8218 kg"
-      ],
-      "answer": "8218 kg"
-    },
-    {
-      "question": "Find the time and distance given: FF 9.6 USG TAS 100 Wind 15 kts tail Actual fuel 50 USG",
-      "choices": [
-        "5:13 @ 598 NM",
-        "5:20 @ 599 NM",
-        "5:20 @ 512 NM",
-        "5:13 @ 512 NM"
-      ],
-      "answer": "5:13 @ 598 NM"
     },
     {
       "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. MTOM 233 000 kg MLM 182 000 kg MZFM 170 000 kg DOM 122 550 kg Traffic Load 35 367 kg Trip Fuel 62 332 kg Planned T/O Fuel 67 885 kg Taxi Fuel 300 kg Fuel burn correction per 1000 kg of Extra Fuel based upon: TOM: + 394 kg and LDM: + 650 kg Fuel tank capacity 110 000 kg",
@@ -35529,16 +35389,6 @@
       "answer": "5250 kg - 1hr 36 min"
     },
     {
-      "question": "An aircraft flies from airport A to airport B, covering a total distance of 460 NM. After 1 h 11 min, it has covered a distance of 183 NM, and its remaining fuel is equal to 780 lb plus reserves. Determine the remaining fuel at airport B, assuming conditions remain the same and given: TAS: 185 kt, Headwind: 30 kt, Trip fuel: 1098 lb, Fuel flow: 370 lb/h",
-      "choices": [
-        "235 lb + reserves",
-        "385 lb + reserves",
-        "119 lb + reserves",
-        "299 lb + reserves"
-      ],
-      "answer": "299 lb + reserves"
-    },
-    {
       "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)2. Routing from London Gatwick Airport, England to Paris Charles de Gaulle Airport, France via, GWC and DVL along route UN859 at FL250, what frequency would you contact, in the vicinity of DVL?",
       "choices": [
         "129.005 MHz",
@@ -35599,16 +35449,6 @@
       "answer": "122.500 MHz."
     },
     {
-      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. MTOM 233 000 kg, MLM 182 000 kg, MZFM 170 000 kg, DOM 122 550 kg, Traffic Load 35 367 kg, Trip Fuel 62 332 kg, Planned T/O Fuel 67 885 kg, Taxi Fuel 300 kg, Fuel burn correction per 1000 kg of Extra Fuel based upon: TOM: + 394 kg and LDM: + 650 kg, Fuel tank capacity 110 000 kg",
-      "choices": [
-        "12 751 kg",
-        "6898 kg",
-        "7198 kg",
-        "18 530 kg"
-      ],
-      "answer": "7198 kg"
-    },
-    {
       "question": "An aircraft takes-off from an airport 2 hours before sunset. The pilot flies a track of 090\u00b0 (T), W/V 130\u00b0 /20 kt, TAS 100 kt. In order to return to the point of departure before sunset, the furthest distance which may be travelled is:",
       "choices": [
         "105 NM",
@@ -35619,26 +35459,6 @@
       "answer": "97 NM"
     },
     {
-      "question": "According to the following NOTAM, what is the maximum height of the balloon involved? Q) EUAD/QWCLW/IV/M/W/000/004/5339N00135W001 A) EUAD B) FROM: 15/12/14 13:48C) TO: 16/03/06 18:30 E) UNMANNED CAPTIVE BALLOON IN LOW FLYING AREA AVOIDANCE AREA WI 1 NM RADIUS. MAX HEIGHT 200FT AGL/324FT AMSL. 15/12/06/0PSLF. LOWER: Surface, UPPER: 324 Feet AMSL SCHEDULE: DEC 14 1348-1600, DEC 15-31 0700-1600, JAN 01-31 0700-1630, FEB 01-29 0700-1730, MAR 01-06 0600-1830",
-      "choices": [
-        "324 feet AMSL.",
-        "200 feet AMSL.",
-        "The height is variable.",
-        "324 feet AGL."
-      ],
-      "answer": "324 feet AMSL."
-    },
-    {
-      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. MTOM: 87 5000 lbs, MLM: 65 2000 lbs, MZFM: 55 5100 lbs, DOM: 39 4100 lbs, Traffic Load: 10 9350 lbs, Trip Fuel: 28 9750 lbs, Planned T/O Fuel: 31 5315 lbs, Taxi Fuel: 1600 lbs, Fuel burn correction per 1000lb of Extra Fuel based upon: TOM: + 470lb and LDM: + 887lb, Tank capacity: 37 7750 lbs",
-      "choices": [
-        "56 235 lbs",
-        "54 635 lbs",
-        "54 255 lbs",
-        "72 235 lbs"
-      ],
-      "answer": "56 235 lbs"
-    },
-    {
       "question": "Given: Distance from departure to destination 165 NM, True track 055\u00b0, W/V 360/20, TAS 105 kt. What is the distance of the PET from the departure point?",
       "choices": [
         "132 NM",
@@ -35647,16 +35467,6 @@
         "92 NM"
       ],
       "answer": "92 NM"
-    },
-    {
-      "question": "Given : Taxi Fuel = 150 kg, Trip time = 2hrs, Alternate = 1200 kg, Extra Fuel = 350 kg, Holding Fuel Flow = 2500 kg/hr, Trip Fuel flow = 3100 kg/hr. Find the Block Fuel.",
-      "choices": [
-        "9466 kg",
-        "9460 kg",
-        "9640 kg",
-        "9115 kg"
-      ],
-      "answer": "9460 kg"
     },
     {
       "question": "How much useable fuel should be on board at start-up given the following planning information: APU fuel flow 150 kg/h, Taxi fuel flow 11 kg / minute, APU time 38 minutes, Taxi. 13 minutes, Trip fuel (including contingency) 4250 kg, Alternate and Final Reserve fuel 3730 kg",
@@ -35687,16 +35497,6 @@
         "Increase average GS to 325 kt."
       ],
       "answer": "Increase average GS to 325 kt."
-    },
-    {
-      "question": "Given: Distance from departure to destination 150 NM, Safe Endurance 2.4 h, True Track 250, W/V 280/15, TAS 120 kt. What is the distance of the PSR from the departure point??",
-      "choices": [
-        "71 NM",
-        "98 NM",
-        "83 NM",
-        "142 NM"
-      ],
-      "answer": "142 NM"
     },
     {
       "question": "Given the following NOTAM information, what changes apply to NDB CF? NEW TODAY TIL 1603312359 NDB REMAINS CF 367KHZ FROM 0000 TO 0900 NDB CF 367KHZ BECOMES ASM 367KHZ FROM 0900 TO 2359 REF TRIGGER NOTAM PERM AIRAC AIP AMDT 04/16 : NOTAM LF/F0403/16 >>> END OF BULLETIN <<<",
@@ -35747,26 +35547,6 @@
         "107 NM and 80 minutes."
       ],
       "answer": "144 NM and 108 minutes."
-    },
-    {
-      "question": "Refer to GSPRM Jeppesen Plate AMSTERDAM (Schipol) 10-2B. You recover via MOLIX, LUTEX and ROBVI and then hold for 20 mins. TAS 250 kt Nil Wind, Fuel flow in cruise 3000 kg /h, Holding fuel flow 2400 kg / h. How much fuel do you burn between MOLIX and leaving the hold to commence the procedure?",
-      "choices": [
-        "1250 kg",
-        "1160 kg",
-        "1650 kg",
-        "1760 kg"
-      ],
-      "answer": "1250 kg"
-    },
-    {
-      "question": "Given the following Information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel to be uplifted. Maximum Zero Fuel Mass MZFM: 2000 kg, Actual Zero Fuel Mass AZFM: 2000 kg, Regulated Take-Off Mass RTOM: 3000 kg, Maximum Landing Mass MLM: 2200 kg, Fuel Tank Capacity: 550 kg, Trip Fuel TF: 190 kg, Minimum Block Fuel (BF): 300 kg",
-      "choices": [
-        "Not able to carry Extra Fuel.",
-        "250 kg.",
-        "90 kg.",
-        "60 kg."
-      ],
-      "answer": "90 kg."
     },
     {
       "question": "Distance from A to B is 1000 NM, All engine TAS is 400 kt, Engine failure TAS is 350 kt, Wind component between A and PET is a 50 kt tailwind and wind component between PET to B is a 30 kt tailwind. What is the distance and time to the engine failure PET from A?",
@@ -35979,36 +35759,6 @@
       "answer": "1130 NM"
     },
     {
-      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. MTOM 85 000 kg, MLM 75 500 kg, MZFM 71 420 kg, DOM 48 000 kg, Traffic Load 15 464 kg, Trip Fuel 2561 kg, Planned T/O Fuel 5167 kg, Taxi Fuel 200 kg, Fuel tank capacity 23 500 kg, Fuel burn correction per 1000 kg of Extra Fuel based upon: TOM: + 54 kg and LDM: + 57kg",
-      "choices": [
-        "9430 kg",
-        "7956 kg",
-        "9968 kg",
-        "9940 kg"
-      ],
-      "answer": "9968 kg"
-    },
-    {
-      "question": "Using Flight Planning Manual MRJT 1 Figure 4.7.2. An aircraft on an extended range operation is required never to be more than 120 minutes from an alternate, based on 1 engine inoperative LRC conditions in ISA. Using the above table and a given mass of 40 000 kg at the most critical point, the maximum air distance to the relevant alternate is:",
-      "choices": [
-        "735 NM",
-        "810 NM",
-        "875 NM",
-        "794 NM"
-      ],
-      "answer": "735 NM"
-    },
-    {
-      "question": "Given the following NOTAM information, when can the aerodrome be expected to be operating on Tuesday? >>> LKPD PARDUBICE <<< AD OPR HR CHANGED: MON-FRI 0700-1830 SAT 0700-1800 SUN 0700-1830:NOTAM LK/B1453/15 >>> END OF BULLETIN<<<",
-      "choices": [
-        "07:00 - 18:00 UTC",
-        "07:00 - 18:30 LT",
-        "07:00 - 18:30 UTC",
-        "07:00 - 18:00 UTC"
-      ],
-      "answer": "07:00 - 18:30 UTC"
-    },
-    {
       "question": "An aircraft is flying at Mach .84 at FL330. The static air temperature is -48 degrees Celsius and the headwind component 52 kt. At 13.38 UTC the controller requests the pilot to cross the meridian of 030W at 1500 UTC. The distance to go is 570 NM. What should be the reduced Mach number?",
       "choices": [
         "0.76",
@@ -36077,26 +35827,6 @@
         "8.17 kg/NM."
       ],
       "answer": "8.17 kg/NM."
-    },
-    {
-      "question": "Find the remaining fuel in litres : ETO ATO Planned Fuel (L) Actual 1. 10:02 10:00 133 137 2. 10:10 10:08 126 130 3. 10:32",
-      "choices": [
-        "111 L",
-        "105 L",
-        "109 L",
-        "107 L"
-      ],
-      "answer": "111 L"
-    },
-    {
-      "question": "Given the following information, what is the ground speed? TAS: 150 kt, Track: 090\u00b0, Wind: 050\u00b0/46 kt",
-      "choices": [
-        "128 kt",
-        "188 kt",
-        "112 kt",
-        "160 kt"
-      ],
-      "answer": "112 kt"
     },
     {
       "question": "Refer to the LRJT 1 Integrated Cruise table. A turbojet aircraft is flying using the following data: TOM: 155 400 kg; Planned cruise at FL 330; LRC; Standard Atmosphere (ISA); CG: 37 %. What flight time will be required to cover an air distance of 2350 NM?",
@@ -36249,16 +35979,6 @@
       "answer": "64 NGM"
     },
     {
-      "question": "Determine the required fuel for an aircraft on a commercial VFR flight with reciprocating engines, given: Fuel Flow: 120 kg/h, Trip Time: 4 h 39 min, No alternate selected and good weather expected.",
-      "choices": [
-        "558 kg",
-        "706 kg",
-        "586 kg",
-        "676 kg"
-      ],
-      "answer": "706 kg"
-    },
-    {
       "question": "An MRJT aircraft is flying with its landing gear down. Complete the following: There will be _____ drag.",
       "choices": [
         "significant",
@@ -36297,16 +36017,6 @@
         "20 kt"
       ],
       "answer": "20 kt"
-    },
-    {
-      "question": "Given the following NOTAM, are you able to fly passengers into EUAD on a charter flight? Q) EGTT/QAZCA/IV/NBO/AE/000/022/5334N00021W003 A) EUAD B) FROM 15/12/08 0942 C) TO PERM E) AERODROME ATZ ACTIVE 0620-2115 DAILYAD OPEN, ATS AVBL, USE OF THE AD IS PRIOR PERMISSION REQUIRED 0620-0630 UTC FOR NON SKED MOVEMENTSEUAD AD 2.3 AND AD 2.17 REFER",
-      "choices": [
-        "Yes, but you must file a flight plan before departing, at least two hours before the scheduled arrival time.",
-        "Yes, but you need prior permission between 06:20-21:15.",
-        "Yes, you can fly in at any time after 06:30 UTC, even though the airfield is open from 06:20.",
-        "Yes, you can fly in at any time between 06:20-21:15 UTC daily."
-      ],
-      "answer": "Yes, you can fly in at any time after 06:30 UTC, even though the airfield is open from 06:20."
     },
     {
       "question": "Refer to the LRJT 1 Integrated Cruise table. A turbojet aeroplane is flying using the following data: Flight level FL 330, Long Range (LR) cruise, Mass of 160 000 kg, Temperature: ISA, Head wind component: 120 kt, Remaining flight time: 4h 30 min Referring to the image above. Which of the following correctly indicates the ground distance remaining?",
@@ -36459,36 +36169,6 @@
       "answer": "743 NM."
     },
     {
-      "question": "Given: True Air Speed: 135 kt, True course: 270\u00b0, Wind: 340\u00b0 /20 kt, Distance: 53 NM. Determine ground speed (GS) and flight time for covering the given distance:",
-      "choices": [
-        "127 kt, 25 minutes",
-        "115 kt, 28 minutes",
-        "127 kt, 17 minutes",
-        "107 kt, 30 minutes"
-      ],
-      "answer": "127 kt, 25 minutes"
-    },
-    {
-      "question": "According to the following NOTAM, what is the maximum height of the balloon involved? Q) EUAD/QWCLW/IV/M/W/000/004/5339N00135W001 A) EUAD B) FROM 15/12/14 1348C) TO 16/03/06 1830 E) UNMANNED CAPTIVE BALLOON IN LOW FLYING AREA AVOIDANCE AREA WI 1NM RADIUSMAX HEIGHT 200FT AGL/324FT AMSL15/12/06/OPSLFLOWER Surface, UPPER 324 Feet AMSL SCHEDULE DEC 14 1348-1600, DEC 15-31 0700-1600, JAN 01-31 0700-1630, FEB 01-29 0700-1730, MAR 01-06 0600-1830",
-      "choices": [
-        "324 feet AMSL.",
-        "324 feet AGL.",
-        "200 feet AMSL.",
-        "The height is variable."
-      ],
-      "answer": "324 feet AMSL."
-    },
-    {
-      "question": "For pre-flight planning purposes, what is the minimum Fuel required for the Commercial Air Transport flight in a Jet aircraft aeroplane, given the following information? Assume the Basic Fuel Scheme WITHOUT variations applies. Trip Fuel: 3740 kg, Fuel to alternate: 936 kg, Taxi Fuel: 140 kg, Fuel flow at 1500 ft above destination aerodrome: 2132 kg/h, Extra Fuel: 0 kg, Discretionary Fuel: 0 kg",
-      "choices": [
-        "5882 kg",
-        "6069 kg",
-        "4816 kg",
-        "6948 kg"
-      ],
-      "answer": "6069 kg"
-    },
-    {
       "question": "Given the following data, what is the maximum extra fuel that may be uplifted? Maximum Zero Fuel Mass: 155 000 kg, Maximum Take-off Mass: 210 000 kg, Maximum Landing Mass: 175 000 kg, Planned ZFM: 155 000 kg, Take-off Fuel: 48 600 kg, Trip Fuel: 42 500 kg, Fuel tank capacity = 65 000 litres. Jet Fuel A-1 Specific Gravity = 0.82. Each 1000 kg extra in mass incurs fuel penalty values of: TOM: +260 kg, LDM: +370 kg.",
       "choices": [
         "5720 kg.",
@@ -36497,16 +36177,6 @@
         "4700 kg."
       ],
       "answer": "4700 kg."
-    },
-    {
-      "question": "Given the following information for a Commercial Air Transport operation, calculate the maximum possible Extra Fuel, including any fuel penalty, that can be uplifted. Maximum Ramp Mass 63 060 kg, MTOM 62 800 kg, MLM 54 900 kg, MZFM 51 300 kg, DOM 33 200 kg, Traffic Load 12 375 kg, T/O Fuel 3575 kg, Trip Fuel 2100 kg, Taxi Fuel 195 kg, Fuel burn correction per 1000 kg of Extra Fuel based upon: TOM: + 40 kg and LDM: + 42kg, Fuel tank capacity 16 145 kg",
-      "choices": [
-        "13 650 kg",
-        "8180 kg",
-        "5725 kg",
-        "7850 kg"
-      ],
-      "answer": "8180 kg"
     },
     {
       "question": "Refer to your Jeppesen GSPRM IFR Chart E(HI)11 and CAP 697, Figure 4.5.3.2. An aircraft crosses TORINO VOR/DME (TOP) at FL 350 at M0.74, with an aircraft mass of 52 500 kg, en-route along M730 via GENOA VOR/DME (GEN) (N44\u00b025' E009\u00b005'), FRZ and ANC to SPLIT VOR/DME (SPL). Given a 60 kt headwind and ISA -20\u00b0C, what is the fuel required between GEN and SPL?",
@@ -36723,7 +36393,7 @@
       "choices": [
         "10-2A",
         "10-2B",
-        "2025-10-02 00:00:00",
+        "10-2",
         "10-2C"
       ],
       "answer": "10-2A"
@@ -37037,16 +36707,6 @@
         "4 min, 11 USG, 26 NM."
       ],
       "answer": "10 min, 4 USG, 26 NM."
-    },
-    {
-      "question": "How many feet do you have to climb to reach FL75? Given: Departure aerodrome elevation 1500 ft, QNH 1023 hPa, Temperature ISA, (1hPa=30 ft)",
-      "choices": [
-        "6000 ft",
-        "6600 ft",
-        "6300 ft",
-        "7800 ft"
-      ],
-      "answer": "6300 ft"
     },
     {
       "question": "The airways which run north-south to the west of Portugal, which allow European continental traffic to transit through North Atlantic oceanic airspace without having to adhere to all the procedures and equipment requirements normally associated with oceanic areas, are known as the __________ routes.",
@@ -37507,16 +37167,6 @@
         "162 kt"
       ],
       "answer": "126 kt"
-    },
-    {
-      "question": "Given the following Information, calculate the drift angle: TAS:179 kt Wind: 330\u00b0(M)/25 kt VAR: 20\u00b0W Course: 210\u00b0(M)",
-      "choices": [
-        "10\u00b0 Left",
-        "8\u00b0 Left",
-        "18\u00b0 Left",
-        "12\u00b0 Left"
-      ],
-      "answer": "8\u00b0 Left"
     },
     {
       "question": "Given the following, calculate the ATOM of PadAir flight 666 from London Heathrow to Edinburgh. MZFM 51 300 kg, MSTOM 62 800 kg, MSLM 54 900kg, PLTOM 59 750 kg, PLLM 58 900 kg, Block fuel 8000 kg, Taxi fuel 260 kg, Trip fuel 2300 kg.",
