@@ -20217,6 +20217,138 @@
       "answer": "To prevent trim runaway"
     }
   ],
+  "INS SEMINAR": [
+    {
+      "question": "Can an autopilot and flight director be active at the same time?",
+      "choices": [
+        "Yes, providing it is programmed with VNAV or LNAV settings.",
+        "Yes, provided the autopilot was used at some point.",
+        "No, the flight director uses the autopilot for guidance.",
+        "Yes, if nothing is programmed."
+      ],
+      "answer": "Yes, providing it is programmed with VNAV or LNAV settings."
+    },
+    {
+      "question": "What angle of bank should you adopt on the attitude indicator for a standard rate (rate 1) turn while flying at an TAS of 130 kts?",
+      "choices": [
+        "15\u00b0",
+        "20\u00b0",
+        "23\u00b0",
+        "18\u00b0"
+      ],
+      "answer": "20\u00b0"
+    },
+    {
+      "question": "N1 or EPR passed from the FMS is the target.",
+      "choices": [
+        "Retard/Idle",
+        "Thrust",
+        "Speed",
+        "%MCT%TOGA"
+      ],
+      "answer": "Thrust"
+    },
+    {
+      "question": "A mechanical fuel flowmeter uses:",
+      "choices": [
+        "A hydraulic driver turning a drum with magnetic pick-offs.",
+        "A synchronous motor driving an impeller against a spring.",
+        "A spring-loaded vane.",
+        "An impeller with magnetic inserts."
+      ],
+      "answer": "A spring-loaded vane."
+    },
+    {
+      "question": "Considering an air driven artificial horizon, when an aircraft decelerates on ground during the landing, the result is:",
+      "choices": [
+        "A false nose-up indication.",
+        "A correct and constant pitch indication.",
+        "A right or left wing down indication depending on the runway direction.",
+        "A false nose-down indication."
+      ],
+      "answer": "A false nose-down indication."
+    },
+    {
+      "question": "An aircraft is flying a true track of 360\u00b0 from 5\u00b0 south to 5\u00b0 north. What is the average apparent wander rate?",
+      "choices": [
+        "0\u00b0 per hour.",
+        "Depends upon ground speed.",
+        "- 5\u00b0 per hour.",
+        "+ 5\u00b0 per hour."
+      ],
+      "answer": "0\u00b0 per hour."
+    },
+    {
+      "question": "The navigation database in a PBN approved receiver is usually valid for?",
+      "choices": [
+        "30 days.",
+        "56 days.",
+        "28 days.",
+        "One calendar month."
+      ],
+      "answer": "28 days."
+    },
+    {
+      "question": "The flight data recorder must automatically stop data recording when the:",
+      "choices": [
+        "Aircraft clears the runway.",
+        "Landing gear is extended and locked.",
+        "Aircraft cannot any longer move by its own power.",
+        "Main gear shock strut compresses when touching the runway."
+      ],
+      "answer": "Aircraft cannot any longer move by its own power."
+    },
+    {
+      "question": "FANS was developed by ICAO:",
+      "choices": [
+        "To effectively monitor aircraft systems' status information and fuel consumption.",
+        "To allow more aircraft to safely and efficiently utilise a given volume of airspace.",
+        "To provide a more efficient, safe, and cost-effective system for communication.",
+        "In order to automate and distribute departure slots."
+      ],
+      "answer": "To allow more aircraft to safely and efficiently utilise a given volume of airspace."
+    },
+    {
+      "question": "Routes where the FANS-1/A concept is used:",
+      "choices": [
+        "Are used during high traffic times only.",
+        "Are designated for FANS with sequence number.",
+        "Are controlled by global ICAO ATC units.",
+        "Require specific RNP capabilities."
+      ],
+      "answer": "Require specific RNP capabilities."
+    },
+    {
+      "question": "The rotational speed of an air-driven gyro is normally:",
+      "choices": [
+        "24 000 RPM.",
+        "50 RPM.",
+        "400-800 RPM.",
+        "9000-12 000 RPM."
+      ],
+      "answer": "9000-12 000 RPM."
+    },
+    {
+      "question": "During a final approach, the flight director is engaged in the G/S mode (tracking the ILS Glide Slope). If the horizontal command bar is deviating upward, it means that:",
+      "choices": [
+        "The aircraft is below the glide slope.",
+        "The pitch angle must be reduced.",
+        "The aircraft is above the glide slope.",
+        "The pitch angle must be increased."
+      ],
+      "answer": "The pitch angle must be increased."
+    },
+    {
+      "question": "Without any external action, the axis of a free gyroscope is fixed with reference to:",
+      "choices": [
+        "Space.",
+        "The aircraft.",
+        "The apparent vertical.",
+        "The Earth."
+      ],
+      "answer": "Space."
+    }
+  ],
   "INS": [
     {
       "question": "Complete the following conversion to the nearest whole degree: -40\u00b0F converts to __________\u00b0C and __________K",
