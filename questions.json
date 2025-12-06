@@ -20347,6 +20347,16 @@
         "The Earth."
       ],
       "answer": "Space."
+    },
+    {
+      "question": "The enhanced GPWS terrain display uses the following colours:",
+      "choices": [
+        "Green, Amber, Red, Blue.",
+        "Green, Amber, Magenta, Blue.",
+        "Green, Amber, Red, White.",
+        "Cyan, Amber, Red, Blue."
+      ],
+      "answer": "Green, Amber, Red, Blue."
     }
   ],
   "INS": [
@@ -24162,7 +24172,7 @@
         "Only on Airbus",
         "Only on Boeing"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "Identify which FEP functions are exclusive to FBW aircraft. Stall Protection.",
@@ -24242,7 +24252,7 @@
         "Depends on mode",
         "Not applicable"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "The following is an example of a warnings, cautions or advisory: Cabin depressurisation.",
@@ -24632,7 +24642,7 @@
         "Only in turbulence",
         "Only in wind shear"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "Mode change accompanied by an aural alert.",
@@ -24662,7 +24672,7 @@
         "Only for V1",
         "Only for VR"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "Flight director (FD) indications: In left turn with 25 degrees of bank passing heading 005. The set heading is 360.",
@@ -24702,7 +24712,7 @@
         "Only if flaps are down",
         "Only if slats are extended"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "There are 2 main variants of autothrust installation. Modes are selected only on the MCP or TOGA switches. The thrust levers __________ with A/T commands. Mode selections can be made using the thrust levers. The levers __________ with A/T commands.",
@@ -24792,7 +24802,7 @@
         "Only on takeoff",
         "Only on approach"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "An autothrust system reduces pilot workload and\u2026",
@@ -24952,7 +24962,7 @@
         "Only if slats are down",
         "Not applicable"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "Identify which FEP functions are exclusive to FBW aircraft. Pitch Limitation.",
@@ -25329,7 +25339,7 @@
         "Only above 10000 ft",
         "Only below 10000 ft"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "Can be used to sense the difference in pressure between two pressure sources.",
@@ -25359,7 +25369,7 @@
         "Only for GPWS",
         "Only for stall warning"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "In an aircraft NOT fitted with an EFIS the master caution light illuminates and an audible alarm is triggered. How does the crew find information about the cause of the caution indication?",
@@ -25409,7 +25419,7 @@
         "Only for TA",
         "Only for RA"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "GPWS visual warnings can be:",
@@ -25509,7 +25519,7 @@
         "Only TA",
         "Depends on mode"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "An approximately accurate system only used in small aircraft.",
@@ -25539,7 +25549,7 @@
         "Only for wind shear",
         "Only for GPWS"
       ],
-      "answer": "1"
+      "answer": "Trye"
     },
     {
       "question": "At high altitudes, aircraft performance is taken into account to inhibit 'climb' and 'increase climb' RAs.",
@@ -25549,7 +25559,7 @@
         "Only for descent RAs",
         "This is false"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "According to CS25, a CVR (Cockpit Voice Recorder) must record... The combination regrouping all the correct statements is:",
@@ -25649,7 +25659,7 @@
         "Sometimes",
         "Only in MAP mode"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "Torque sensors may be: Mechanical. The axial load of a helical gear drives a piston compressing oil in a cylinder. The oil __________ is proportional to the torque. This system is relatively heavy, expensive and maintenance intensive.",
@@ -25899,7 +25909,7 @@
         "Shown in white",
         "Shown in blue"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "A Cockpit Voice Recorder must record:",
@@ -26047,7 +26057,7 @@
         "Only geometric altitude",
         "Only GNSS position"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "Torque sensors may be: Electronic. Solid state __________ gauges use a metal which changes __________ with changing strain. 4 sensors mounted at right angles are mounted on the side of a drive shaft. The system is cheap, light and simple. It can have multiple channels for redundancy. It __________ suitable for FADEC engines.",
@@ -26377,7 +26387,7 @@
         "Only for Mode S",
         "Only for Mode C"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "The time limit to CPA depends on the aircraft's altitude and the system's sensitivity level (SL). The value to trigger an RA is between 15 and 35 seconds.",
@@ -26387,7 +26397,7 @@
         "The value is fixed",
         "The value is 10 to 20 seconds"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "The electromotive force of a thermocouple is not modified if one or several intermediate metals are inserted in the circuit provided that:",
@@ -26417,7 +26427,7 @@
         "Only if damage is suspected",
         "Never"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "The relationship between torque, RPM and power is:",
@@ -26567,7 +26577,7 @@
         "Never",
         "Only with crew consent"
       ],
-      "answer": "1"
+      "answer": "True"
     },
     {
       "question": "Electrical: using 3-phase __________-generators. A small generator is driven by the engine shaft. This outputs 3-phase AC to drive a small motor in the gauge, which drives a drag cup by magnetism. The AC signal can be fed to EFIS displays on later aircraft.",
@@ -30431,7 +30441,7 @@
         "1",
         "2"
       ],
-      "answer": "True"
+      "answer": "1"
     },
     {
       "question": "Identify the true and false statements. Flight crew must have personal copies of the OM Parts A, B and C.",
@@ -30951,7 +30961,7 @@
         "4",
         "2"
       ],
-      "answer": "True"
+      "answer": ""
     },
     {
       "question": "A pilot working for a CAT operator has performed 105 duty hours in the last 13 consecutive days. On the 14th day, the operator's crewing department calls, asking the pilot to operate a flight with a total duty of 8 hours later that same day. According to the EU-OPS regulations, what is the correct decision?",
