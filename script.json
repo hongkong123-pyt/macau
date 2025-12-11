@@ -1,0 +1,36 @@
+{
+  "HPL": [
+    {
+      "question": "It takes about __________ minutes for the cones and __________ minutes for the rods to achieve maximum sensitivity.",
+      "choices": [
+        "5; 60",
+        "1; 5",
+        "2; 10",
+        "9; 30"
+      ],
+      "answer": "9; 30"
+    },
+    {
+      "question": "The purpose of the __________ is to carry air from the nose or mouth to the lungs.",
+      "choices": [
+        "pulmonary vein",
+        "trachea",
+        "pulmonary artery",
+        "lungs"
+      ],
+      "answer": "trachea"
+    },
+    {
+      "question": "Blood pressure is measured in __________ of mercury.",
+      "choices": [
+        "centimetres",
+        "mm",
+        "pounds",
+        "inches"
+      ],
+      "answer": "mm"
+    },
+    {
+      "question": "Slight imperfections in the curvature of the cornea or the lens...is a description of:",
+      "choices": [
+        "Presbyopia.",
