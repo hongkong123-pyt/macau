@@ -1,4 +1,3 @@
-// === Variables ===
 let data = {};
 let currentIndex = 0;
 let currentSubject = "";
@@ -11,7 +10,6 @@ const subjectSelect = document.getElementById("subjectSelect");
 const questionIndex = document.getElementById("questionIndex");
 const questionText = document.getElementById("questionText");
 const optionsList = document.getElementById("optionsList");
-const questionContainer = document.getElementById("questionContainer");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 const finishBtn = document.getElementById("finishBtn");
@@ -25,12 +23,6 @@ const retryWrongBtn = document.getElementById("retryWrongBtn");
 const reviewFlaggedBtn = document.getElementById("reviewFlaggedBtn");
 const backToFullQuizBtn = document.getElementById("backToFullQuizBtn");
 const shuffleToggle = document.getElementById("shuffleToggle");
-
-const feedback = document.createElement("div");
-feedback.id = "feedbackMessage";
-feedback.style.marginTop = "10px";
-feedback.style.fontWeight = "bold";
-optionsList.insertAdjacentElement("afterend", feedback);
 
 fetch("questions.json")
   .then(res => res.json())
@@ -90,58 +82,46 @@ function displayQuestion() {
   questionIndex.textContent = `${currentIndex + 1} / ${currentQuestions.length}`;
   questionText.textContent = q.question;
   optionsList.innerHTML = "";
-  feedback.textContent = "";
 
-  // Reset background highlight class
-  questionContainer.classList.remove("correct", "wrong");
-  if (answeredStatus[currentIndex]) {
-    questionContainer.classList.add(
-      answeredStatus[currentIndex].isCorrect ? "correct" : "wrong"
-    );
-  }
-
-  q.choices.forEach((choice, i) => {
-    const id = `opt${i}`;
-    const label = document.createElement("label");
-    label.setAttribute("for", id);
-    label.innerHTML = `
-      <input type="radio" name="option" id="${id}" value="${choice}" />
-      ${choice}
-    `;
+  q.choices.forEach((choice, index) => {
+    const li = document.createElement("li");
+    li.textContent = choice;
+    li.dataset.index = index;
 
     if (answeredStatus[currentIndex]) {
       const selected = answeredStatus[currentIndex].selected;
       const isCorrect = answeredStatus[currentIndex].isCorrect;
-      if (choice === q.answer) label.classList.add("correct");
-      if (choice === selected && choice !== q.answer) label.classList.add("wrong");
-      label.querySelector("input").disabled = true;
+      if (choice === q.answer) li.classList.add("correct");
+      if (choice === selected && !isCorrect) li.classList.add("wrong");
+      li.style.pointerEvents = "none";
     }
 
-    label.querySelector("input").addEventListener("change", () => {
+    li.onclick = () => {
       if (answeredStatus[currentIndex]) return;
+
       const isCorrect = choice === q.answer;
       answeredStatus[currentIndex] = { selected: choice, isCorrect };
       saveProgress();
 
-      feedback.textContent = isCorrect ? "Correct!" : "Incorrect";
-      feedback.style.color = isCorrect ? "green" : "red";
-
-      displayQuestion();
-
       if (isCorrect) {
+        li.classList.add("correct");
         updatePaginationColors();
         setTimeout(() => {
           if (currentIndex < currentQuestions.length - 1) {
             currentIndex++;
             displayQuestion();
           }
-        }, 800);
+        }, 600);
       } else {
+        li.classList.add("wrong");
+        [...optionsList.children].forEach(c => {
+          if (c.textContent === q.answer) c.classList.add("correct");
+        });
         updatePaginationColors();
       }
-    });
+    };
 
-    optionsList.appendChild(label);
+    optionsList.appendChild(li);
   });
 
   updatePaginationColors();
@@ -186,27 +166,17 @@ restartBtn.onclick = () => {
   resultScreen.classList.add("hidden");
   questionText.textContent = "Loading...";
   optionsList.innerHTML = "";
-  feedback.textContent = "";
   localStorage.removeItem("quizState");
 };
 
 retryWrongBtn.onclick = () => {
-  const wrongIndexes = Object.entries(answeredStatus)
-    .filter(([_, ans]) => !ans.isCorrect)
-    .map(([index]) => parseInt(index));
-
-  if (wrongIndexes.length === 0) {
-    alert("No wrong answers to retry!");
-    return;
-  }
-
-  currentQuestions = wrongIndexes.map(i => currentQuestions[i]);
+  currentQuestions = currentQuestions.filter((_, i) => answeredStatus[i] && !answeredStatus[i].isCorrect);
   currentIndex = 0;
   answeredStatus = {};
-  flagged = {};
-  resultScreen.classList.add("hidden");
+  flaggedQuestions = {};
   renderPagination();
   displayQuestion();
+  resultScreen.classList.add("hidden");
 };
 
 reviewFlaggedBtn.onclick = () => {
@@ -230,11 +200,12 @@ backToFullQuizBtn.onclick = () => {
 function renderPagination() {
   pagination.innerHTML = "";
   currentQuestions.forEach((_, i) => {
-    const btn = document.createElement("button");
+    let btn = document.createElement("button");
     btn.textContent = i + 1;
     btn.onclick = () => {
       currentIndex = i;
       displayQuestion();
+      updatePaginationColors();
     };
     pagination.appendChild(btn);
   });
@@ -267,7 +238,7 @@ document.getElementById("themeToggle").addEventListener("change", (e) => {
 
 document.addEventListener("keydown", (e) => {
   const key = e.key.toLowerCase();
-  const options = document.querySelectorAll(".custom-option-list input");
+  const options = document.querySelectorAll("#optionsList li");
   const hasAnswered = answeredStatus[currentIndex];
 
   if (!hasAnswered && ["a", "b", "c", "d"].includes(key)) {
@@ -278,9 +249,3 @@ document.addEventListener("keydown", (e) => {
   if (key === "arrowright") nextBtn.click();
   if (key === "arrowleft") prevBtn.click();
 });
-
-function clearSelection(event, groupName) {
-  event.preventDefault();
-  const radios = document.querySelectorAll(`input[name='${groupName}']`);
-  radios.forEach(r => r.checked = false);
-}
