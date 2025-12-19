@@ -1,17 +1,3 @@
-// === Password Check ===
-function checkPassword() {
-  const correctPassword = "nosharing";
-  const input = document.getElementById("accessInput").value;
-  const error = document.getElementById("errorMsg");
-
-  if (input === correctPassword) {
-    document.getElementById("lockScreen").style.display = "none";
-    document.getElementById("quizApp").style.display = "block";
-  } else {
-    error.textContent = "Incorrect password. Try again.";
-  }
-}
-
 // === Variables ===
 let data = {};
 let currentIndex = 0;
