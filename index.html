@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -10,61 +11,66 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  
-  <!-- 📋 Quiz App -->
-  <div id="quizApp" style="display:none;">
+
+  <!-- 📋 Quiz App (no lock screen) -->
+
+  <div id="quizApp">
     <div class="top-bar">
       <div class="subject-header">
         <h1>ATPL Question Bank</h1>
 
-        <select id="subjectSelect">
-          <option disabled selected>Choose a subject</option>
-        </select>
+```
+    <select id="subjectSelect">
+      <option disabled selected>Choose a subject</option>
+    </select>
 
-        <span id="questionIndex">– / –</span>
+    <span id="questionIndex">– / –</span>
 
-        <label class="toggle">
-          <input type="checkbox" id="themeToggle" /> Dark Mode
-        </label>
-        <label class="shuffle-toggle">
-          <input type="checkbox" id="shuffleToggle" checked /> Shuffle questions
-        </label>
-      </div>
+    <label class="toggle">
+      <input type="checkbox" id="themeToggle" /> Dark Mode
+    </label>
+    <label class="shuffle-toggle">
+      <input type="checkbox" id="shuffleToggle" checked /> Shuffle questions
+    </label>
+  </div>
+</div>
+
+<div class="main-container">
+  <div class="question-panel">
+    <div id="questionContainer" class="custom-question-box">
+      <p id="questionText"><strong>Question will appear here…</strong></p>
+      <form id="optionsList" class="custom-option-list"></form>
     </div>
 
-    <div class="main-container">
-      <div class="question-panel">
-        <div id="questionContainer" class="custom-question-box">
-          <p id="questionText"><strong>Question will appear here…</strong></p>
-          <form id="optionsList" class="custom-option-list"></form>
-        </div>
+    <div class="nav-buttons">
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+      <button id="flagBtnNav">🚩 Flag</button>
+      <button id="finishBtn">Finish</button>
+    </div>
 
-        <div class="nav-buttons">
-          <button id="prevBtn">Previous</button>
-          <button id="nextBtn">Next</button>
-          <button id="flagBtnNav">🚩 Flag</button>
-          <button id="finishBtn">Finish</button>
-        </div>
-
-        <div id="resultScreen" class="hidden result-box">
-          <p id="scoreText"></p>
-          <button id="restartBtn">Restart</button>
-          <button id="retryWrongBtn">Retry Wrong Answers</button>
-          <button id="reviewFlaggedBtn">Review Flagged Questions</button>
-          <button id="backToFullQuizBtn">Back to Full Quiz</button>
-        </div>
-      </div>
-
-      <div class="sidebar">
-        <div class="actions">
-          <button class="side-btn">Save Test</button>
-          <button id="finishBtnSide" class="side-btn">Finish Test</button>
-        </div>
-        <div id="pagination" class="pagination-grid"></div>
-      </div>
+    <div id="resultScreen" class="hidden result-box">
+      <p id="scoreText"></p>
+      <button id="restartBtn">Restart</button>
+      <button id="retryWrongBtn">Retry Wrong Answers</button>
+      <button id="reviewFlaggedBtn">Review Flagged Questions</button>
+      <button id="backToFullQuizBtn">Back to Full Quiz</button>
     </div>
   </div>
 
+  <div class="sidebar">
+    <div class="actions">
+      <button class="side-btn">Save Test</button>
+      <button id="finishBtnSide" class="side-btn">Finish Test</button>
+    </div>
+    <div id="pagination" class="pagination-grid"></div>
+  </div>
+</div>
+```
+
+  </div>
+
   <script src="script.js"></script>
+
 </body>
 </html>
